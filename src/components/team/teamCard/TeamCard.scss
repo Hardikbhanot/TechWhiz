@@ -1,4 +1,4 @@
-.border {
+.card-border {
     height: 250px;
     width: 176px;
     background: transparent;
@@ -9,7 +9,7 @@
     border: 1px solid white;
     }
 }
-.card {
+.team-card {
     margin-top: 5%;
     height: 265px; 
     width: 190px; 
@@ -39,14 +39,14 @@
   }
  
   
-  .card:hover{
+  .team-card:hover{
     box-shadow: 0 10px 20px rgba(77, 77, 255, 1);
   }
-  .card:hover h2 {
+  .team-card:hover h2 {
     opacity: 1;
     
   }
-  .card:hover .fab {
+  .team-card:hover .fab {
     opacity: 1;
   }
   h2 {

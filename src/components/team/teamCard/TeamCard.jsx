@@ -1,11 +1,11 @@
 import React from 'react'
 import './TeamCard.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { fab } from '@fortawesome/free-brands-svg-icons'
+
 function TeamCard({name,github,linkedin,instagram}) {
     return (
-        <div class="card card0">
-        <div class="border">
+        <div class="team-card card0">
+        <div class="card-border">
           <h2>{name}</h2>
           <div class="icons">
             <a aria-hidden="true" href={github}><FontAwesomeIcon className='icon' icon={["fab", "github"]} /></a>
