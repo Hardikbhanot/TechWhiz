@@ -1,0 +1,23 @@
+{
+    "webd": {
+        "visible": false,
+        "content": "Webd Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "coding": {
+        "visible": false,
+        "content": "Coding Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "gd": {
+        "visible": false,
+        "content": "GD Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "quiz": {
+        "visible": false,
+        "content": "Quiz Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "game": {
+        "visible": false,
+        "content": "Game Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+
+}
