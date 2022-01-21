@@ -1,0 +1,39 @@
+#show{
+    display: flex;
+    top: 0;
+    transition: all 4s ease-in ;
+    flex-direction: column;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.705);
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    
+    li{
+        
+        list-style: none;
+        font-size: 3.5rem;
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 2% auto;
+        cursor: pointer;
+    }
+}
+nav ul{
+    display: none;
+}
+.burger{
+    z-index: 5;
+    position: fixed;
+    right: 40px;
+    cursor: pointer;
+    top: 40px;
+    .line{
+        background-color: white;
+        width: 35px;
+        margin: 7px  auto;
+        height: 3px;
+    }
+    
+}
