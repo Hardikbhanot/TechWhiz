@@ -3,7 +3,7 @@ import './clubs.scss'
 import Terminal from './Terminal'
 function Clubs() {
     return (
-    <>
+    <div className='club-container-container'>
         <div className="club-container">
             <div className="menu">
                 <div className="buttons-flex">
@@ -19,7 +19,7 @@ function Clubs() {
             </div>
             <Terminal/>
         </div>
-    </>
+    </div>
     )
 }
 

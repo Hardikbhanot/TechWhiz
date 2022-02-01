@@ -70,15 +70,22 @@ const Terminal=()=>{
             </ol>
                  
         </div>
-        <label className="input" >Enter your input:</label>
+        <div className="inputcont">
+
+        <label className="input" >Enter your input</label>
+            <div className="inp">
+                
             <input 
                 id="input-choice"
                 type="text"
                 name="choice"
+                
                 onKeyDown={(e)=>chunnu(e)}/>
+                </div>
+                </div>
     </div>
     </>
-      )
+    )
   }
 
 setElement=()=>{

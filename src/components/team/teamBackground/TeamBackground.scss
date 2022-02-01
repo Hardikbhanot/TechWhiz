@@ -8,10 +8,13 @@
 
 body{
     overflow-x: hidden;
-    background-color: black !important;
+
 }
 // .tBackground{
 // }
+.tBackground{
+    background-color: black;
+}
 
 .team-background {
     position: absolute;
@@ -23,7 +26,8 @@ body{
     background-position: center;
     background-size: cover;
     animation: sky 15s linear infinite;
-    opacity: .5;
+    opacity: .9969;
+
 }
 
 @keyframes sky {

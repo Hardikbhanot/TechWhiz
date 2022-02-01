@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Lottie from 'react-lottie';
 import animationData from '../../lottie/footerLottie.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
-function footer() {
+function Footer() {
     const defaultOptions = {
         loop: true,
         autoplay: true,
@@ -15,7 +15,7 @@ function footer() {
       };
     return (
         <footer className="footer-section">
-        <div className="container">
+        <div>
             <div className="footer-cta py-5">
                 <div className="row">
                     <div className="col-sm-6 col-xl-4 mb-30">
@@ -112,4 +112,4 @@ function footer() {
     )
 }
 
-export default footer
+export default Footer
