@@ -1,0 +1,40 @@
+.signup-parent{
+    display: flex;
+    justify-content: center;
+
+}
+.signup-container{
+    position: absolute;
+    background-color: rgba(255, 235, 205, 0.185);
+    height:200px;
+    width: 50%;
+    // transform: translateX(20%);
+    top: 15%;
+    h3 {
+        color: #fff;
+        font-family: monospace;
+        display: inline-block;
+        overflow: hidden; 
+        border-right: .15em solid rgb(34, 11, 54); 
+        white-space: nowrap; 
+        margin: 5% auto; 
+        letter-spacing: .15em; 
+        animation: 
+          typing 3.5s steps(30, end),
+          blink-caret .5s step-end infinite;
+      }
+      
+      /* The typing effect */
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 50% }
+      }
+      
+      /* The typewriter cursor effect */
+      @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: #381749 }
+      }
+      
+}
+
