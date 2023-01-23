@@ -1,7 +1,7 @@
 import React from 'react';
 import HeroContent from './heroContent';
 import Hero from './hero';
-import Navbar from '../LayoutComponents/Navbar/navbar';
+// import Navbar from '../LayoutComponents/Navbar/navbar';
 function heroMain() {
   return (
     <div className='heroMain'>

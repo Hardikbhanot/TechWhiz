@@ -30,13 +30,13 @@ nav ul {
 .burger {
     z-index: 5;
     position: fixed;
-    right: 40px;
+    right: 0;
     cursor: pointer;
-    top: 40px;
+    top: 0;
     .line {
-        background-color: white;
         width: 35px;
-        margin: 7px auto;
+        margin: 2px auto;
         height: 3px;
+        border-radius: 20%;
     }
 }

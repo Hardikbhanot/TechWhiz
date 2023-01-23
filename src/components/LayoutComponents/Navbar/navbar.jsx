@@ -1,32 +1,36 @@
 import React, { useState } from 'react'
 import './navbar.scss';
-import {
-    BrowserRouter as Router,
-    Link
-    // Route
-  } from "react-router-dom";
+import Lottie from 'react-lottie';
+import animationData from './loop.json';
+
 function  Navbar() {
     const [showlinks,setShowLinks]=useState(false);
-    
+    const defaultOptions={
+        loop:true,
+        autoplay:true,
+        animationData: animationData,
+    };
     
     return (
         <>
            <nav>
                <div className="burger" onClick={()=>setShowLinks(!showlinks)}>
+                   {/* <div className="line"></div>
                    <div className="line"></div>
-                   <div className="line"></div>
-                   <div className="line"></div>
+                   <div className="line"></div> */}
+                   <Lottie
+                   className="line"
+                    options={defaultOptions}
+                    height="100px"/>
                </div>
-               <Router>
                <ul id={showlinks ? "show": ""}>
-                <Link to="/"  onClick={() => {window.location.href="/"}}>   <li>Home</li></Link>
-                  <Link to="/about"  onClick={() => {window.location.href="/about"}}> <li>About</li></Link>
-                  <Link to="/"  onClick={() => {window.location.href="/geekfeed"}}>  <li>Geek Feed</li> </Link>
-                  <Link to="/club"  onClick={() => {window.location.href="/club"}}> <li>Clubs</li></Link>
-                  <Link to="/team"  onClick={() => {window.location.href="/team"}}> <li>Team</li></Link>
-                  <Link to="/"  onClick={() => {window.location.href="/"}}>  <li>Signup and Login</li> </Link>
+                   <li>Home</li>
+                   <li>About</li>
+                   <li>Geek Feed</li>
+                   <li>Clubs</li>
+                   <li>Team</li>
+                   <li>Signup and Login</li>
                </ul>
-               </Router>
             </nav> 
         </>
     )
